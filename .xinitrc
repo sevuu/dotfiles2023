@@ -14,7 +14,6 @@ if [ -f $sysresources ]; then
 
 
 
-
     xrdb -merge $sysresources
 
 fi
