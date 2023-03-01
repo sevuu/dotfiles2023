@@ -8,6 +8,7 @@ alias osukill="~/.local/bin/osukill"
 alias osu="~/.local/bin/osu"
 alias lg="lazygit"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias lazyconfig='lazygit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
