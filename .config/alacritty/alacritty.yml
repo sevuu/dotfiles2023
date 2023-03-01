@@ -1,21 +1,21 @@
 font:
   normal:
-    family: Iosevka
+    family: TerminessTTF Nerd Font Mono
     style: Regular
 
   bold:
-    family: Iosevka
+    family: TerminessTTF Nerd Font Mono
     style: Bold
 
   italic:
-    family: Iosevka
+    family: TerminessTTF Nerd Font Mono
     style: Italic
 
   bold_italic:
-    family: Iosevka
+    family: TerminessTTF Nerd Font Mono
     style: Bold Italic
 
-  size: 10
+  size: 11
 
 window:
   opacity: 0.85
