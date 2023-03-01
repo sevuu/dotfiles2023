@@ -1,9 +1,9 @@
 # Description
-My dotfiles just in case I will ever need to reinstall my os.  It's extremely messy and it's not anything special as I don't really tweak everything in every way possible. This repo is mainly for my own usage, but I guess someone might find this useful so I will leave it as a public repository.
+My dotfiles just in case I will ever need to reinstall my os.  It's extremely messy and it's not anything special as I'm too lazy to tweak everything to its limits. This repo is mainly for my own usage, but I guess someone might find this useful so I will leave it as a public repository.
 I will try to keep this repo updated.
 
 # Screenshot
-![image](https://i.imgur.com/tilpndc.png)
+![image](https://cdn.discordapp.com/attachments/760585166833582151/1080560021085114398/image.png)
 
 # Dependencies
 (some of them need to be downloaded from AUR)
@@ -15,7 +15,6 @@ neovim
 polybar
 picom
 nitrogen
-i3
 bspwm
 sxhkd
 j4-dmenu-desktop
