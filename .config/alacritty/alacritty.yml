@@ -1,21 +1,21 @@
 font:
   normal:
-    family: TerminessTTF Nerd Font Mono
+    family: Terminus
     style: Regular
 
   bold:
-    family: TerminessTTF Nerd Font Mono
+    family: Terminus
     style: Bold
 
   italic:
-    family: TerminessTTF Nerd Font Mono
+    family: Terminus
     style: Italic
 
   bold_italic:
-    family: TerminessTTF Nerd Font Mono
+    family: Terminus
     style: Bold Italic
 
-  size: 11
+  size: 12
 
 window:
   opacity: 0.85

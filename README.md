@@ -3,7 +3,7 @@ My dotfiles just in case I will ever need to reinstall my os.  It's extremely me
 I will try to keep this repo updated.
 
 # Screenshot
-![image](https://cdn.discordapp.com/attachments/760585166833582151/1080560021085114398/image.png)
+![image](https://cdn.discordapp.com/attachments/760585166833582151/1080946395172843656/image.png)
 
 # Dependencies
 (some of them need to be downloaded from AUR)
