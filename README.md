@@ -1,6 +1,5 @@
 # Description
-My dotfiles just in case I will ever need to reinstall my os.  It's extremely messy and it's not anything special as I'm too lazy to tweak everything to its limits. This repo is mainly for my own usage, but I guess someone might find this useful so I will leave it as a public repository.
-I will try to keep this repo updated.
+My dotfiles just in case I will ever need to reinstall my os. This repo is mainly for my own usage, but I guess someone might find this useful so I will leave it as a public repository for now.
 
 # Screenshot
 ![image](https://cdn.discordapp.com/attachments/760585166833582151/1080946395172843656/image.png)
@@ -21,6 +20,5 @@ j4-dmenu-desktop
 maim
 xclip`
 
-https://github.com/kamek-pf/polybar-forecast for weather icons on polybar.
+https://github.com/kamek-pf/polybar-forecast
 
-In order to install programs from **./Builds** directory you just need to run `sudo make clean install` in each folder
