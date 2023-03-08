@@ -61,7 +61,7 @@ font-0 = Terminus:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = Terminus:pixelsize=11;1
 font-2 = Siji:pixelsize=11;1
-font-3 = Weather Icons:size=9;0
+font-3 = Weather Icons:size=10;0
 
 
 modules-left = bspwm xwindow
@@ -117,7 +117,7 @@ font-0 = Terminus:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = Terminus:pixelsize=11;1
 font-2 = Siji:pixelsize=11;1
-font-3 = Weather Icons:size=9;0
+font-3 = Weather Icons:size=10;0
 
 
 modules-left = bspwm xwindow
@@ -152,7 +152,7 @@ type = custom/script
 exec = /home/rodi/Builds/forecast/poly
 exec-if = ping openweathermap.org -c 1
 interval = 600
-label-font = 3
+label-font = 0
 
 [module/appmenu]
 type=custom/text

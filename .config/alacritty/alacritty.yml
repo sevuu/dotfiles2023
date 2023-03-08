@@ -19,6 +19,42 @@ font:
 
 window:
   opacity: 0.85
-    
+
 key_bindings:
-    - { key: N, mods: Control|Shift, command: { program: "/bin/bash", args: ["-c", "~/Scripts/spawnalacritty"] }}
+  - {
+      key: N,
+      mods: Control|Shift,
+      command:
+        {
+          program: "/bin/bash",
+          args: [ "-c", "~/Scripts/spawnalacritty" ]
+        }
+    }
+colors:
+  name: Google (dark)
+  author: Chris Kempson
+  primary:
+    background: "#111111"
+    foreground: "#c5c8c6"
+  cursor:
+    text: "#1d1f21"
+    cursor: "#c5c8c6"
+  normal:
+    black: "#1d1f21"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#c5c8c6"
+  bright:
+    black: "#969896"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#ffffff"
+theme: Google.dark
