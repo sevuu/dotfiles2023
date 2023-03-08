@@ -7,19 +7,7 @@ My dotfiles just in case I will ever need to reinstall my os. This repo is mainl
 # Dependencies
 (some of them need to be downloaded from AUR)\
 ```sh
-yay -S ttf-weather-icons
-ttc-iosevka
-terminus-font
-ttf-dejavu
-neovim
-polybar
-picom
-nitrogen
-bspwm
-sxhkd
-j4-dmenu-desktop
-maim
-xclip
+yay -S ttf-weather-icons ttc-iosevka terminus-font ttf-dejavu neovim polybar picom nitrogen bspwm sxhkd j4-dmenu-desktop maim xclip
 
 ```
 https://github.com/kamek-pf/polybar-forecast
