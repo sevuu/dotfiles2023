@@ -28,8 +28,8 @@ foreground = #dfdfdf
 foreground-alt = #fff
 ;primary = #ffb52a
 ;primary = #28fff0
-primary = #1f9666
-secondary = #3fba34
+primary = #b8bb26
+secondary = #83a598
 alert = #bd2c40
 
 
@@ -311,7 +311,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #24841b
+format-underline = #98971a
 label = %percentage:2%%
 
 [module/memory]
@@ -319,7 +319,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #39a82f
+format-underline = #8ec07c
 label = %percentage_used%%
 
 [module/wlan]
@@ -474,7 +474,7 @@ thermal-zone = 0
 warn-temperature = 70
 
 format = <ramp> <label>
-format-underline = #286b0b
+format-underline = #fabd2f
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
