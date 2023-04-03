@@ -1,5 +1,5 @@
 export PATH=$PATH:~/.local/bin
-export OSU_SONG_FOLDER="/HDD/osu/osuwine/osu!/Songs"
+export OSU_SONG_FOLDER="/HDD/osu/osu/Songs"
 export ZSH="~/.oh-my-zsh"
 export EDITOR="nvim"
 alias vim="nvim"

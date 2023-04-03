@@ -38,7 +38,8 @@ super + e
 
 # screenshot of current window
 Print
-	maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+	~/Scripts/screenshot.sh
+	#maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 
 # file manager
 super + shift + m
