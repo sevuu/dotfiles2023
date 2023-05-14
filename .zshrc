@@ -1,6 +1,5 @@
 export PATH=$PATH:~/.local/bin
 export OSU_SONG_FOLDER="/HDD/osu/osu/Songs"
-export ZSH="~/.oh-my-zsh"
 export EDITOR="nvim"
 alias vim="nvim"
 alias cls="clear"
@@ -33,11 +32,22 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '~/.zshrc'
-
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
 export PATH="$HOME/.local/bin/:$PATH"
+
+# Arrow keys fix
+bindkey "\eOc" forward-word
+bindkey "\eOd" backward-word
+bindkey "\e[1;5C" forward-word
+bindkey "\e[1;5D" backward-word
+bindkey "\e[5C" forward-word
+bindkey "\e[5D" backward-word
+bindkey "\e\e[C" forward-word
+bindkey "\e\e[D" backward-word

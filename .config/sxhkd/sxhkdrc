@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# toggle language
+super + shift + space
+	setxkbmap {pl, us, ru -variant phonetic_winkeys}
+
 # terminal emulator
 super + Return
 	alacritty
