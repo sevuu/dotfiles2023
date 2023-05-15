@@ -92,12 +92,12 @@ cursor-scroll = ns-resize
 [bar/topbar]
 inherit = bar/mainbar
 monitor = DP-4
-modules-right = weather pulseaudio xkeyboard memory cpu wlan temperature battery powermenu dunst
+modules-right = spotify weather pulseaudio xkeyboard memory cpu wlan temperature battery powermenu dunst
 
 [bar/topbar1]
 inherit = bar/mainbar
 monitor = HDMI-0
-modules-right = weather pulseaudio xkeyboard memory cpu wlan temperature 
+modules-right = spotify weather pulseaudio xkeyboard memory cpu wlan temperature 
 
 [module/weather]
 type = custom/script
@@ -309,7 +309,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 
 date-alt =
 date = " %Y-%m-%d"
@@ -462,6 +462,40 @@ menu-2-0 = power off
 menu-2-0-exec = systemctl poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/spotify]
+type = custom/script
+tail = true
+interval = 1
+; prefix symbol is shown before the text
+format-prefix = ""
+format = <label>
+exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
+
+[module/spotify-prev]
+type = custom/script
+exec = echo "⏪"
+format = <label>
+click-left = playerctl previous -p spotify
+
+[module/spotify-play-pause]
+type = custom/ipc
+hook-0 = echo "<playing-symbol>"
+hook-1 = echo "<pause-symbol>"
+initial = 1
+click-left = playerctl play-pause -p spotify
+
+[module/spotify-next]
+type = custom/script
+exec = echo "⏩"
+format = <label>
+click-left = playerctl next -p spotify
+
+[module/sep]
+type = custom/text
+content = "|"
+content-foreground = ${colors.foreground-alt}
+content-padding = 1
 
 [settings]
 screenchange-reload = true
