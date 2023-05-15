@@ -7,7 +7,7 @@ My dotfiles just in case I will ever need to reinstall my os. This repo is mainl
 # Dependencies
 (some of them need to be downloaded from AUR so I recommend using [yay](https://aur.archlinux.org/packages/yay))
 ```sh
-yay -S ttf-weather-icons ttc-iosevka terminus-font ttf-dejavu neovim polybar picom nitrogen bspwm sxhkd j4-dmenu-desktop maim xclip
+yay -S ttf-weather-icons ttc-iosevka terminus-font ttf-dejavu neovim polybar picom nitrogen bspwm sxhkd j4-dmenu-desktop maim xclip playerctl zscroll-git
 
 ```
 https://github.com/kamek-pf/polybar-forecast
