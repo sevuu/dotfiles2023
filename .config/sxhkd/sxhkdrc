@@ -22,7 +22,8 @@ super + Escape
 
 # spawn chromium
 super + shift + f
-	brave
+	librewolf
+#	brave
 
 # calculator
 super + shift + n
@@ -59,7 +60,7 @@ XF86AudioLowerVolume
 
 # slock
 super + shift + i
-	slock
+	pactl set-sink-volume @DEFAULT_SINK@ 0% & slock && pactl set-sink-volume @DEFAULT_SINK@ 75%
 #
 # bspwm hotkeys
 #
