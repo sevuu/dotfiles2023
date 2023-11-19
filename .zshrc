@@ -10,6 +10,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias lazyconfig='lazygit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshfsrpi='sshfs pi@192.168.2.212:/home/pi/ RaspberryPi'
 alias sshfslap='sshfs rodi@192.168.2.48:/home/rodi Laptop'
+alias pulseshitter='PULSE_LATENCY_MSEC=15 pulseshitter'
 
 # plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

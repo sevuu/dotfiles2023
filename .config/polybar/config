@@ -92,7 +92,7 @@ cursor-scroll = ns-resize
 [bar/topbar]
 inherit = bar/mainbar
 monitor = DP-4
-modules-right = spotify weather pulseaudio xkeyboard memory cpu wlan temperature battery powermenu dunst
+modules-right = spotify weather pulseaudio xkeyboard memory cpu wlan temperature battery powermenu dunst 
 
 [bar/topbar1]
 inherit = bar/mainbar

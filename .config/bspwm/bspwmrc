@@ -23,3 +23,4 @@ bspc rule -a osu\! state=fullscreen
 bspc rule -a Screenkey manage=off
 bspc rule -a mpv state=pseudo_tiled
 #bspc rule -a TelegramDesktop state=pseudo_tiled
+polybar topbar & polybar topbar1 &
